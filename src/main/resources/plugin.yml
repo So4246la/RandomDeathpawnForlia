@@ -1,0 +1,17 @@
+name: RandomDeathpawn
+main: com.example.randomdeathpawn.RandomDeathpawn
+version: 1.3
+api-version: 1.19
+folia-supported: true
+
+
+commands:
+  checklives:
+    description: "Check your remaining lives"
+    usage: "/checklives"
+  addlives:
+    description: "Add or reset lives"
+    usage: "/addlives [player] [amount]"
+  checkrevive:
+    description: "Check how long until you can revive"
+    usage: "/checkrevive"
