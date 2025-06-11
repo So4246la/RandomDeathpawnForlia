@@ -269,8 +269,8 @@ public class RandomDeathpawn extends JavaPlugin implements Listener {
         }
 
         // リスポーン処理
-        // player.spigot().respawn();
-        // player.getScheduler().runDelayed(this, (task) -> processRandomTeleport(player, TeleportReason.RESPAWN), null, 1L);
+        player.spigot().respawn();
+        player.getScheduler().runDelayed(this, (task) -> processRandomTeleport(player, TeleportReason.RESPAWN), null, 1L);
     }
         
     private void scheduleWeeklyReset() {
